@@ -1,0 +1,57 @@
+body {
+    background-color: darkgray;
+    font-family: Arial;
+    display: grid;
+    place-items: center;
+    height: 1000px;
+}
+.login {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    margin: 100px auto;
+    border: 1px solid black;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.remember {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.remember input {
+    margin-right: 5px;
+}
+.remember label {
+    margin: 0;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+button:hover {
+    background-color: black;
+}
+a {
+    display: block;
+    margin-top: 15px;
+    color: limegreen;
+}
